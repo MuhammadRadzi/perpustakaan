@@ -16,5 +16,6 @@ use App\Http\Controllers\BookController;
 // });
 
 Route::get('/', [BookController::class, 'index'])->name('books.index');
-Route::get('/buku/tambah', [BookController::class, 'create'])->name('buku.create');
 Route::get('/buku', [BookController::class, 'index'])->name('buku.index');
+Route::get('/buku/tambah', [BookController::class, 'create'])->name('buku.create');
+Route::post('/buku', [BookController::class, 'store'])->name('buku.store');

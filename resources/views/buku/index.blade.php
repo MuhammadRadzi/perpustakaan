@@ -4,7 +4,7 @@
 <div class="container py-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h1>Daftar Buku</h1>
-        <a href="" class="btn btn-primary">Tambah Buku</a>
+        <a href="{{ route('buku.create') }}" class="btn btn-primary">+ Tambah Buku</a>
     </div>
 
     <table class="table table-striped table-hover bg-white align-middle">
