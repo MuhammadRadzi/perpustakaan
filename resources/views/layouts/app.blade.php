@@ -9,9 +9,10 @@
 <body class="bg-light">
     <nav class="navbar navbar-expand navbar-dark bg-primary mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('books.index') }}">Perpustakaan</a>
+            <a class="navbar-brand" href="{{ route('buku.index') }}">Perpustakaan</a>
             <div class="navbar-nav">
-                <a class="nav-link" href="{{ route('books.index') }}">Buku</a>
+                <a class="nav-link" href="{{ route('buku.index') }}">Buku</a>
+                <a class="nav-link" href="{{ route('kategori.index') }}">Kategori</a>
             </div>
         </div>
     </nav>
